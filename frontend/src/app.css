@@ -1,0 +1,25 @@
+header{
+	background-color: black;
+	color:white;
+}
+.menu{
+	display: flex;
+	justify-content: flex-start;
+	list-style: none;
+	padding: 0;
+	menu: 0;
+}
+
+.menu .menu-item{
+	display: flex;
+	justify-content: flex-start;
+	color: white;
+}
+
+.menu .menu-item > a{
+	display: flex;
+	justify-content: flex-start;
+	padding: 10px;
+	color: white;
+	text-decoration: none
+}

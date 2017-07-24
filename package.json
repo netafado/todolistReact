@@ -2,9 +2,10 @@
   "name": "todolist",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/loader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "prod": "pm2 start src/loader.js --name todolist"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
     "express": "^4.14.0",
     "mongoose": "^4.7.0",
     "node-restful": "^0.2.5",
-    "pm2": "^2.1.5"
+    "pm2": "^2.1.5",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }
